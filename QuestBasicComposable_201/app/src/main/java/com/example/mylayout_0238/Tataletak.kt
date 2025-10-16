@@ -145,5 +145,6 @@ import android.text.Layout
 //Fungsi untuk menampilkan susunan teks secara vertikal
 // Menggunakan Column layout
 
+fun TataletakColumn(modifier: Modifier = Modifier)
 
 
