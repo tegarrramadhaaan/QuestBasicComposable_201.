@@ -142,6 +142,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
 
 import android.text.Layout
 
+//
 
 
 
