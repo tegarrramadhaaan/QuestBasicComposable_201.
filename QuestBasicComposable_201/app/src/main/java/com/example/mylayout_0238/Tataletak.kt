@@ -56,4 +56,21 @@ fun TataletakBox(modifier: Modifier) {
     }
 }
 
+@Composable
+fun TataletakColumn2(modifier: Modifier) {
+    Column(modifier = Modifier
+        .padding(all = 50.dp)
+        .fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally)
+
+    {
+        Text(text = "Komponen1")
+        Text(text = "Komponen2")
+        Text(text = "Komponen3")
+        Text(text = "Komponen4")
+    }
+
+}
+
 
