@@ -106,6 +106,40 @@ fun TataletakRowColumn(modifier: Modifier) {
     }
 }
 
+@Composable
+fun TataletakBoxColumnRow(modifier: Modifier) {
+    val gambar = painterResource(id = R.drawable.notasibalok)
+    Column {
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(height = 100.dp)
+                .background(color = Color.Yellow),
+            contentAlignment = Alignment.Center
+        ) {
+            Column() {
+                Row (
+                    modifier = modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+                    Text(text = "Col1_Row1_komponen1")
+                    Text(text = "Col1_Row1_komponen2")
+                    Text(text = "Col1_Row1_komponen3")
+                }
+                Row (
+                    modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                )
+                {
+                    Text(text = "Col1_Row2_Komponen1")
+                    Text(text = "Col1_Row2_Komponen2")
+                    Text(text = "Col1_Row2_Komponen3")
+                }
+            }
+        }
+    }
+}
+
 
 
 
