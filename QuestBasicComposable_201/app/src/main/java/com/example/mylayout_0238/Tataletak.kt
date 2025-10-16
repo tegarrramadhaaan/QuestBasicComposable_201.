@@ -149,4 +149,5 @@ fun TataletakColumn(modifier: Modifier = Modifier)
 
 .background(color = Color.Yellow)
 
+        //
 
