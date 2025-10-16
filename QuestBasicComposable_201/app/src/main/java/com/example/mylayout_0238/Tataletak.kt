@@ -142,7 +142,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
 
 import android.text.Layout
 
-//
+//Fungsi untuk menampilkan susunan teks secara vertikal
 
 
 
