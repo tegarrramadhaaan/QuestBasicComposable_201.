@@ -147,4 +147,6 @@ import android.text.Layout
 
 fun TataletakColumn(modifier: Modifier = Modifier)
 
+.background(color = Color.Yellow)
+
 
